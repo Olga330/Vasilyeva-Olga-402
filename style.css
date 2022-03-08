@@ -1,0 +1,21 @@
+.blu {color: blue;}
+.yl {color: yellow;}
+.gr {color: green;}
+.re {color: red; }
+.b {
+  margin: 15px;
+}
+#d1 {
+  width: 357px;
+  height: 57px;
+  border: 1px solid black;
+}
+.bl {
+  font-size:  50px;
+}
+
+.wh{
+  background: black;
+  font-size:  50px;
+  color: white;
+}
