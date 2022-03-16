@@ -1,0 +1,57 @@
+
+  body {
+  background-color: #e8bc89;
+ 
+  }
+.rc {
+    background-color: #f3bb86;
+    width: 100%;
+    height: 100%;
+}
+.rv {
+    background-color: white;
+    border-radius: 25px;
+    position: fixed;
+    top: 15%;
+    left: 35%;
+    padding: 30px;
+    width: 25%;
+    height: 65%;
+}
+.rb {
+    text-align: left;
+    font-family: cursive;
+    font-size: x-large;
+}
+.rn {
+    background-color: rgb(217, 231, 243);
+    border: 1px solid rgb(203, 223, 240);
+    border-radius: 10px;
+    width: 100%;
+    height: 35px;
+}
+.rm {
+    background-color: rgb(217, 231, 243);
+    border: 1px solid rgb(203, 223, 240);
+    border-radius: 10px;
+    width: 100%;
+    height: 35px;
+}
+.rk {
+    background-color: rgb(217, 231, 243);
+    border: 1px solid rgb(203, 223, 240);
+    border-radius: 10px;
+    width: 100%;
+    height: 150px;
+    justify-content:end;
+}
+.rj {
+    padding: 15px;
+    border: 1px solid rgb(238, 115, 71);
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform:uppercase;
+    color: white;
+    background-color: #f3bb86;
+    width: 100%;
+}
