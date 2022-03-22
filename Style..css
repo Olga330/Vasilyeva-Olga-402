@@ -1,0 +1,98 @@
+
+.ca {
+counter-reset: li;  
+font: 14px "Trebuchet MS", "Lucida Sans";
+padding: 0;
+text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+.ca a {
+position: relative;
+display: block;
+padding: .4em .4em .4em 2em;
+margin: .5em 0;
+background: #DAD2CA;
+color: #444;
+border-radius: .3em;
+transition: .3s ease-out;
+
+}
+.ca a:hover {background: #E9E4E0;}
+.ca a:hover:before {transform: rotate(360deg);}
+.ca a:before {
+content: counter(li);
+counter-increment: li;
+position: absolute;
+left: -1.3em;
+top: 50%;
+margin-top: -1.3em;
+background: #8FD4C1;
+height: 2em;
+width: 2em;
+line-height: 2em;
+border: .3em solid white;
+text-align: center;
+font-weight: bold;
+border-radius: 2em;
+transition: all .3s ease-out;
+}
+
+.a {
+     float: left;
+     height: 250px;
+     font-size: 30px;
+     background: #407bbf;
+     margin-top: 50px;
+     width: 500px; 
+     margin-right: 120px; 
+     border:5px solid #222222;
+    position: inherit;
+
+    }
+.c {
+     float: right;
+     height: 150px;
+     font-size: 30px;
+     background: #FA8072;
+     margin-top: 30px;
+     width: 400px; 
+     margin-right: 80px; 
+     border:5px solid #222222;
+     position: absolute;
+		top: 70px;
+		left: 60px;
+           
+     
+    }
+.d {
+     float: left;
+     line-height: 50px;
+     font-size: 30px;
+     background: #228B22
+;
+     color: black;
+     margin-top: 30px;
+     width: 300px; 
+     margin-right: 80px;
+     text-align: left; 
+     border:5px solid #222222;
+     position: absolute;
+		top: 120px;
+		left: 110px;
+                
+    }
+
+
+.b9 {
+     float: left;
+     line-height: 80px;
+     font-size: 30px;
+     background: #de9f8cfa;
+     color: black;
+     margin-top: 30px;
+     width: 100px; 
+     margin-right: 80px;
+     text-align: center; 
+     border:10px solid #222222;
+     border-radius: 20px 20px;
+    }
+
