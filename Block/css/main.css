@@ -84,7 +84,7 @@ body{
 }
 
 .bg-light {
-    background-color: rgb(240, 194, 221)
+    background-color: rgb(240, 194, 221);
 }
 
 .navbar {
@@ -103,6 +103,7 @@ body{
     height: 320px;
     margin-right: 4px;
 }
+
 .list{
     list-style: none;
     padding: 0;
@@ -185,15 +186,31 @@ article img {
 
 }
     
+
 .btn{
-
-    border-radius: 7px;
+    background: none;
+   */* color:#333*/*
+    border: none;
+    padding: 0.5rem 1rem;
     cursor: pointer;
-    padding: 13px;
-    margin: 1rem;
-    border: 1px solid rgb(7, 2, 2);
-    color: rgb(247, 234, 234);;
-    background-color: rgb(143, 122, 236);
 }
-
-
+.btn-sm{
+    padding: 0.2rem 0.75rem;
+}
+.btn-light{
+    background-color: rgb(232, 32, 155);
+}
+.btn-dark{
+    background-color: rgb(219, 125, 175);
+    color:rgb(148, 8, 31)
+}
+.btn-primary{
+    background-color: crimson;
+}
+.post-title, .post-country {
+    color:rgb(139, 51, 130);
+}
+.post-title:visited, .post-country:visited{
+    color:rgb(243, 10, 142);
+}
+.a
