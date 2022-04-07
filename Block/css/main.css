@@ -211,6 +211,38 @@ article img {
     color:rgb(139, 51, 130);
 }
 .post-title:visited, .post-country:visited{
-    color:rgb(243, 10, 142);
+    color:rgb(173, 9, 162);
 }
-.a
+.raginate{
+    display:flex;
+    list-style: none;
+
+}
+.raginate-item {
+    border: 1px solid rgb(173, 9, 162);
+    margin:2px;
+   background-color: rgb(173, 9, 162);
+   transition: 0.8s;
+
+
+}
+.raginate-item a {
+    padding: 0.75rem;
+ 
+}
+.raginate a, raginate a:visited{
+    color:rgb(238, 225, 236);
+}
+.raginate a{
+    text-decoration: none;
+}
+.raginate-item:hover{
+    background-color: rgb(159, 200, 232);
+
+}
+.raginate-item:hover a {
+    color:rgb(173, 9, 162);
+}
+.justify-content-center{
+    justify-content: center;
+}    
