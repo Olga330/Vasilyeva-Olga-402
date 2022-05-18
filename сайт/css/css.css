@@ -1,12 +1,50 @@
 
 
-
-.b-1{
-    background-color: rgba(152, 198, 234, 0.8);
+.body{
+    background-color: rgba(245, 241, 241, 0.8);
+    font-family: 'Indie Flower', cursive;
+    
+}
+.m-2{
     text-align: center;
 }
+.body-1{
+    background-color: rgba(217, 226, 236, 0.8);
+    font-family: 'Indie Flower', cursive;
+    
+}
+.header-wrap {
+    color: #ffffff;
+    background: #4c394e;
+    position: relative;
+    z-index: 10;
+}
+.m-0{
+    background-color: #ffffff;
+}
+.b-1{
+    background-color: rgba(135, 109, 137, 0.8);
+    text-align: center;
+}
+.b-0{
+    background-color: rgba(58, 4, 56, 0.8);
+   
+}
+.b0{
+    background-color:  rgba(135, 109, 137, 0.8);
+  
+   
+}
+.b-12{
+    background-color: rgba(58, 4, 56, 0.8);
+   
+}
+.b-7{
+ 
+    color: rgb(250, 250, 255);
+}
 .b-3{
-    background-color: rgba(152, 198, 234, 0.8);
+    background-color: rgba(135, 109, 137, 0.8);
    
 }
 .b-2{
@@ -14,6 +52,12 @@
     color: rgb(15, 15, 15);
     text-align: center;
     font-size: 17px;
+}
+.post-2{
+    padding: 0.5rem;
+    color: #ffffff
+    text-decoration: none;
+    
 }
 .b-4{
     background-color: rgba(249, 250, 251, 0.8);
@@ -34,7 +78,7 @@
     font-size: 17px;
 }
 .b-6{
-    background-color: rgba(246, 246, 249, 0.8);
+    background-color: #ffffff;
     color: rgb(15, 15, 15);
     font-size: 17px;
     text-align: center;
@@ -42,6 +86,32 @@
 .b-7{
     justify-content: center;
 }
+.bt {
+    color: rgb(6, 6, 6);
+    text-decoration: none;
+}
+.nav-link-1{
+    
+    color: rgba(4, 4, 4, 0.936);
+    text-decoration: none;
+
+}
+.nav-link-1.active{
+    
+    color: rgba(24, 10, 173, 0.9);
+}
+.nav-link-2{
+    
+    color: rgba(253, 246, 246, 0.936);
+    text-decoration: none;
+
+}
+.nav-link-2.active{
+    
+    color: rgba(20, 20, 22, 0.9);
+}
+
+
    
 
 .n{
@@ -56,33 +126,69 @@
     font-size: 17px;
     color: rgb(1, 0, 4);
 }
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+
+.navbar {
+    height: 50px;
+    display: flex;
+}
 
 .nav-link {
     padding: 0.5rem;
-    color: rgba(246, 246, 249, 0.936);
+    color: rgba(8, 8, 9, 0.936);
+    text-decoration: none;
+
+}
+.nav-link1 {
+    padding: 0.5rem;
+    color: rgba(242, 242, 247, 0.936);
     text-decoration: none;
 
 }
 .nav-link.active {
-    color: rgba(55, 67, 232, 0.9);
+    color: rgba(76, 8, 59, 0.9);
 }
 .post-body {
     display: flex;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    background-color: rgba(199, 136, 180, 0.8);
+   
+    background-color: #ffffff;
     
 }
 .post-h{
-    background-color: rgba(152, 198, 234, 0.8);
+   
     margin-top: 15px;
     margin-bottom: 15px;
+    text-decoration: none;
+
+}
+.post-h-2{
+   
+ color:rgb(233, 31, 233);
+
+}
+.post-h-1{
+   
+    
+    color: rgb(7, 7, 7);
+    background-color: rgba(251, 249, 251, 0.8);;
+ 
+    border-radius: 1px;
+    border: 1px solid rgb(253, 253, 255);
+
+}
+.post-h.active{
+    color: #ffffff;
 }
 
 .post-header a, post-header a:visited {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    background-color: rgba(231, 231, 244, 0.8);
+    background-color: #ffffff;
    
 }
 .post {
@@ -91,22 +197,34 @@
         text-align: center;
      
     }
+.post-1 {
+        border: 3px solid rgba(248, 249, 250, 0.8);
+        padding: 1.5rem;
+        text-align: center;
+         
+        }
 .row {
     display: flex;
     flex-direction: row;
 }
 .btn.c {
-    border: 2px solid rgb(237, 238, 242);
     color: rgb(255, 255, 255);
-    background-color: rgba(152, 190, 234, 0.8);
+ 
 }
 .btn.c a, btn.c a:visited {
     color: #fff;
     text-decoration: none;
 }
+
 .post-footer{
-    background-color: #87d2e0;
+    background-color: #ffffff;
     text-decoration: none;
+}
+.post-footer1{
+    background-color: rgba(103, 188, 238, 0.8);;
+    text-decoration: none;
+    border-radius: 9px;
+    border: 1px solid rgb(253, 253, 255);
 }
 .post-header{
     margin-top: 7px;
@@ -127,7 +245,7 @@
 .paginate-item {
     border: 1px solid #0956d1;
     margin: 2px;
-
+    text-align: center;
     transition: 0.9s;
     background-color: #eceff5;
 }
@@ -163,14 +281,44 @@
     color: rgb(2, 0, 0);
   
 }
+.n-1{
+    color: rgb(246, 242, 242);
+}
 .b{
     width: 70%;
-   
-    border-color: rgb(246, 246, 247);
     margin: 1em;
-    background-color: #eff3f4;
-    color: rgb(22, 81, 168);
     margin-right: 25px;
     text-align: center;
                 
+}
+.b{
+    width: 70%;
+    margin: 1em;
+    margin-right: 25px;
+    text-align: center;
+}
+.m{
+    width: 70%;
+    margin: 1em;
+    
+    color: rgb(7, 7, 7);
+    
+    
+}
+.m1{
+    width: 70%;
+    margin: 1em;
+    
+    color: rgb(241, 232, 232);
+    
+    
+}
+.carousel {
+    width:1300px;
+    height: 360px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  justify-content: center;
+
 }
